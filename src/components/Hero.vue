@@ -1,5 +1,5 @@
 <template>
- <section class=" pt-24 h-[80dvh] flex px-12 blob">
+ <section class=" pt-24 h-[85dvh] flex px-12 blob">
     <main class="w-1/2 flex justify-center flex-col items-start gap-10">
       <h1 class=" text-7xl">
         Te recomendamos
@@ -47,17 +47,19 @@
   }
 }
 
-    /* @media (min-width: 1024px) {
+    @media (min-width: 1024px) {
       .blob{
         background-position-x: 
-        300%, 
-        90%,
-        ; 
+        600px,
+        500px;
+        background-position-y: 
+        70px,
+        -150px;
 
-      }
+  }
 
       
-    } */
+    }
     @media (min-width: 1440px) {
       .blob{
         background-position-x: 
@@ -68,12 +70,16 @@
         -150px;
       }
     }
-    /* @media (min-width: 1920px) {
+    @media (min-width: 1920px) {
       .blob{
-        background-position-x: 1500px, 90%; 
-
+        background-position-x: 
+        1900px,
+        1700px;
+        background-position-y: 
+        100px,
+        -150px;
       }
-    } */
+    }
    
 
 
