@@ -1,7 +1,7 @@
 <template>
-  <header class="flex absolute px-12 py-6 justify-between items-center bg-transparent w-full">
+  <header class="flex flex-col-reverse lg:flex-row absolute px-12 py-6  lg:justify-between items-center bg-transparent w-full">
     <nav>
-      <ul class=" text-lg">
+      <ul class="text-sm lg:text-lg">
         <a class="" href="">Inicio</a>
          -
         <a class="text-secondary" href="">Nosotros</a>
@@ -9,9 +9,9 @@
         <a class="" href="">Contáctanos</a>
       </ul>
     </nav>
-    <img class="absolute py-3 top-0 left-1/2 -translate-x-1/2" src="../assets/logo_blue.svg" alt="">
+    <img class="block h-16 lg:h-36 lg:absolute py-3 top-0 lg:left-1/2 lg:-translate-x-1/2" src="../assets/logo_blue.svg" alt="">
     <section>
-      <ul class="flex gap-1 ">
+      <ul class="hidden lg:flex gap-1 ">
         <a class=" p-2 border rounded-full border-secondary/50" href="">
           <img  class="" src="../assets/facebook_logo.png" alt="">
         </a>
